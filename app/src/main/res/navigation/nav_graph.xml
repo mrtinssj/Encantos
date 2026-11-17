@@ -6,6 +6,16 @@
     app:startDestination="@id/navigation_camera">
 
     <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.ifpr.androidapptemplatear.ui.MapFragment"
+        android:label="@string/map" />
+
+    <fragment
+        android:id="@+id/navigation_cleaning"
+        android:name="com.ifpr.androidapptemplatear.ui.CleaningFragment"
+        android:label="@string/cleaning_title" />
+
+    <fragment
         android:id="@+id/navigation_camera"
         android:name="com.ifpr.androidapptemplatear.ui.CameraFragment"
         android:label="@string/camera"
